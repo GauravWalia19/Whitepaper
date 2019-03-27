@@ -1,5 +1,30 @@
-# Whitepaper
+<p align="center"><img width="200" src="https://pp.io/images/logo_color.png" alt="ppio logo"></p>
 
-PPIO is a programmable decentralized storage and delivery network. It not only provides more robust and efficient services than existing cloud-based storage platforms such as AWS S3 but also significantly reduces the storage cost. At the same time, PPIO also offers better data security and privacy protection. PPIO's well-designed decentralized storage network and incentive mechanism allows it to make use of the vast amount of unused bandwidth and storage resources on the Internet, and provide reliable storage service at much lower cost. PPIO's unique decentralized file system prevents unauthorized access and ensures that all the data can be stored securely and privately. PPIO is designed from the ground up to perform efficiently on a global scale, by leveraging the founding team's experience from designing and running the decentralized network with hundreds of millions of users. PPIO meets the storage needs of both today's Internet businesses and services, and the emerging decentralized applications (DApps).
+<p align="center">
+  <a href="https://discordapp.com/invite/RfjuwGw"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
+</p>
+
+## Whitepaper of PPIO
+PPIO is a programmable decentralized storage and delivery network.
 
 In this work, PPIO's design goals are explained, followed by the details on how it achieves these goals. It provides in-depth details on its distributed file system, network architecture, and storage workflow. It explains how PPIO can prevent various network attacks, and discusses how it establishes a healthy and sustainable incentive mechanism, economic model and ecosystem.
+
+## Language
+- [x] [English](./Whitepaper_EN.md)
+- [ ] 中文简体
+- [ ] Le français
+- [ ] 日本語
+- [ ] 한국어
+
+## Know more about PPIO
+- [Official Site](https://pp.io)
+- [Official Blog](https://blog.pp.io)
+- [Documentation of PPIO](https://pp.io/docs)
+
+## Questions
+For questions and support please go to our [community chat](https://discordapp.com/invite/RfjuwGw).
+
+## License
+[MIT License](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2013-present, PPIO
