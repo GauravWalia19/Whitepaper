@@ -357,7 +357,7 @@ PPIO is a fully decentralized storage and distribution system that requires its 
     \vspace{-2.5em}
 \end{figure} \\
 In a DHT, each piece of data is bundled with a unique key into a key-value pair. These key-value pairs are distributed and stored among the participating nodes. It avoids the problem with the centralized database system, where a failure in the central server leads to the breakdown of the entire network. No single participating node in the DHT is tasked to maintain the entire network. Each node only stores a small part of the database and only needs to maintain information of its adjacent nodes, such design significantly reduces each node’s bandwidth and resource usage. Redundancy is also added to the data and stored on multiple nodes to maintain the reliability of the system so that a single node failure does not cause loss of data.
-\vspace{-0.5em}
+\vspace{-1.5em}
  \\ \\ There are many different implementations of DHT, some of the commonly used are Chord\cite{article14}, Pastry\cite{article15}, Tapestry\cite{article18}, Dynamo\cite{article19}, and Kademlia\cite{article16}. PPIO uses Kademlia, so do many other well-known P2P projects like PPLive, BitTorrent, eMule, etc.
  \vspace{-0.5em}
  \\ \\Kademlia algorithm assigns a unique ID to each participating node. The node ID is also used to calculate the distance between nodes and locate key-value pairs. The algorithm steps through the network path and finds nodes closer to the key on every step to look up a specific key-value pair in the network until it reaches the node that stores the key-pair. Each node needs to store information of a group of other nodes based their distance to it to support the lookup. Such distance is calculated by taking an XOR operation on two Node IDs. Node IDs have the same bit length as the keys used in key-value pairs. Therefore, the distance between node IDs and keys can be calculated in the same way. Since the XOR distance does not take actual geographic distance into account, it is possible for two nodes to reside next to one another in the network even though one of them may be in the United Kingdom, while the other is in the United States.
@@ -635,8 +635,8 @@ PPIO employs 4 different storage proofs, namely Proof of Replication (PoRep), Pr
 Proof of Replication (PoRep) provides a way to verify that Miner $L$ correctly replicates Data $D$ from User $U$ and stores it in its storage. The process also provides an indirect proof of the bandwidth available to $L$. The procedure of PoRep is described below.
 \vspace{-0.8em}
 \\ \\ 
-\centerline{\includegraphics[width=320pt]{fig6}}
-\\ \\\centerline{{Figure 2.6 Proof-of-Replication}}
+\centerline{\includegraphics[width=440pt]{fig6}}
+ \\\centerline{{Figure 2.6 Proof-of-Replication}}
 \vspace{-1.5em}
 \\
 
@@ -650,7 +650,7 @@ Proof of Replication (PoRep) provides a way to verify that Miner $L$ correctly r
 \hangafter 1
 \hangindent 1.5em
 \noindent   
-2.\quad $U$ transmits $R$ and $PK_{Seal}$ to miner $L$.
+2.\quad $U$ transmits $R$ to miner $L$.
 \vspace{-0.8em}
 \\
 
