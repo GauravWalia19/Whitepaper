@@ -19,7 +19,7 @@ In this work, PPIO's design goals are explained, followed by the details on how 
 ## Know more about PPIO
 - [Official Site](https://pp.io)
 - [Official Blog](https://blog.pp.io)
-- [Documentation of PPIO](https://pp.io/docs)
+- [Documentation of PPIO](https://www.pp.io/docs/)
 
 ## Questions
 For questions and support please go to our [community chat](https://discordapp.com/invite/RfjuwGw).
